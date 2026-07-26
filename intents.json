@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "fee",
+      "patterns": [
+        "When is fee due?",
+        "Fee last date?",
+        "Fees eppo pay pannanum?",
+        "Fee date enna?"
+      ],
+      "response": "The fee due date is 30 August."
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "Exam timetable",
+        "Exam schedule",
+        "Exam eppo?",
+        "Semester exam date"
+      ],
+      "response": "The exam timetable is available on the college website."
+    }
+  ]
+}
